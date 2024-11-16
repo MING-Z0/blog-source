@@ -1,0 +1,11 @@
+- class_name: 智能汽车竞赛
+  class_desc: 十九届智能车-地平线智慧医疗
+  link_list:
+      - name: DarthVictor
+        avatar: https://img2020.cnblogs.com/blog/1933812/202010/1933812-20201023182810774-1129451055.jpg
+        link: https://www.cnblogs.com/DarthVictor
+        # descr: 来自华科，毕业于衡中
+      - name: 火花w
+        avatar: https://gravatar.loli.net/avatar/32ff65bfd1df9112dca5029999eea51c?s=220
+        link: https://hibanaw.com/
+        # descr: 来自华科，人工智能
