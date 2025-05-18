@@ -1,7 +1,7 @@
-- class_name: 智能汽车竞赛
+- class_name: 智能车竞赛
   class_desc: 十九届智能车-地平线智慧医疗
   link_list:
-    - name: MING
-      avatar: https://ming-blog.top/img/头像.png
-      link: https://ming-blog.top/
-      descr: 我自己hhh
+      - name: MING
+        avatar: https://ming-blog.top/img/配置/头像.png
+        link: https://ming-blog.top/
+        descr: 我自己hhh
