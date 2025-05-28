@@ -1,4 +1,11 @@
 # --------------------------------------
+# Hexo Butterfly Theme Configuration
+# If you have any questions, please refer to the documentation
+# Chinese: https://butterfly.js.org/
+# English: https://butterfly.js.org/en/
+# --------------------------------------
+
+# --------------------------------------
 # 导航设置
 # --------------------------------------
 
@@ -16,7 +23,7 @@ menu:
   分析||fas fa-list:
     标签: /标签/ || fas fa-tags
     分类: /分类/ || fas fa-folder-open
-    统计: /统计/ || fas fa-archive
+    档案室: /archives/ || fa fa-archive
   我的||fa fa-user:
     友链: /友链/ || fas fa-link
   收藏||fas fa-list:
@@ -40,8 +47,6 @@ code_blocks:
   height_limit: 200
   # 是否自动换行
   word_wrap: false
-
-  # 工具栏
   # 是否显示复制按钮
   copy: true
   # 是否显示语言标签
@@ -57,36 +62,37 @@ code_blocks:
 social:
   fab fa-github: https://github.com/ming-z0 || Github || '#24292e'
   fas fa-envelope: mailto:ming-zhanglu@outlook.com || Email || '#4a7dbe'
+
 # --------------------------------------
 # 图片设置
 # --------------------------------------
 
-# 网站的 favicon 图标
-favicon: "./img/图标/favicon.png"
+# 网站图标
+favicon: /img/配置/图标.png
 
-# 头像设置
+# 头像
 avatar:
   # 头像图片链接
-  img: "./img/配置/头像.png"
+  img: /img/配置/头像.png
   # 是否启用头像效果
   effect: false
 
 # 禁用所有横幅图片
 disable_top_img: false
 
-# 如果页面未设置横幅，则显示默认的横幅图片
-default_top_img: "./img/配置/默认图.jpg"
+# If the banner of page not setting, it will show the default_top_img
+default_top_img: /img/配置/背景.jpg
 
-# 主页的横幅图片
-index_img: "./img/配置/网站背景.jpg"
+# 索引页面的横幅图像
+index_img:
 
-# 归档页的横幅图片
+# 存档页面的横幅图像
 archive_img:
 
-# 注意: 是标签页（单个标签），不是标签页面（所有标签）
+# 标签: 是标签页（单个标签），不是标签页面（所有标签）
 tag_img:
 
-# 标签页的横幅图片，可以为每个标签设置横幅图片
+# 标签页面的横幅图像，可以为每个标签设置横幅图像
 # 格式:
 #  - 标签名: 图片链接
 tag_per_img:
@@ -105,7 +111,7 @@ footer_img: true
 # 网站背景
 # 可以设置为颜色或图片
 # 图片格式: url(http://xxxxxx.com/xxx.jpg)
-background: ./img/配置/网站背景.jpg
+background: /img/配置/背景.jpg
 
 # 封面设置
 cover:
@@ -126,23 +132,17 @@ cover:
     - "./img/文章封面/6.jpg"
     - "./img/文章封面/7.jpg"
     - "./img/文章封面/8.jpg"
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # 替换损坏的图片
 error_img:
-  # 友链页面的错误图片
   flink: /img/friend_404.gif
-  # 文章页面的错误图片
-  post_page: /img/配置/404.jpg
+  post_page: /img/404.jpg
 
-# 简单的 404 页面
+# 简单的404页
 error_404:
-  # 是否启用 404 页面
   enable: false
-  # 404 页面的副标题
   subtitle: "Page Not Found"
-  # 404 页面的卡片背景图片
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: /img/error-page.png
 
 # 文章元数据设置
 post_meta:
@@ -430,7 +430,7 @@ aside:
     # 是否显示最后推送日期
     last_push_date: true
     sort_order:
-    # 发佈日期与当前日期的时间差
+    # 发布日期与当前日期的时间差
     # 格式：Month/Day/Year Time 或 Year/Month/Day Time
     # 如果不启用此功能，请留空
     runtime_date:
@@ -501,7 +501,7 @@ anchor:
   click_to_scroll: true
 
 # 图片标题
-photofigcaption: false
+photofigcaption: true
 
 # 复制设置
 copy:
@@ -1252,3 +1252,58 @@ CDN:
   custom_format:
 
   option:
+    # abcjs_basic_js:
+    # activate_power_mode:
+    # algolia_js:
+    # algolia_search:
+    # aplayer_css:
+    # aplayer_js:
+    # artalk_css:
+    # artalk_js:
+    # blueimp_md5:
+    # busuanzi:
+    # canvas_fluttering_ribbon:
+    # canvas_nest:
+    # canvas_ribbon:
+    # chartjs:
+    # click_heart:
+    # clickShowText:
+    # disqusjs:
+    # disqusjs_css:
+    # docsearch_css:
+    # docsearch_js:
+    # egjs_infinitegrid:
+    # fancybox:
+    # fancybox_css:
+    # fireworks:
+    # fontawesome:
+    # gitalk:
+    # gitalk_css:
+    # giscus:
+    # instantpage:
+    # instantsearch:
+    # katex:
+    # katex_copytex:
+    # lazyload:
+    # local_search:
+    # main:
+    # main_css:
+    # mathjax:
+    # medium_zoom:
+    # mermaid:
+    # meting_js:
+    # prismjs_autoloader:
+    # prismjs_js:
+    # prismjs_lineNumber_js:
+    # pjax:
+    # sharejs:
+    # sharejs_css:
+    # snackbar:
+    # snackbar_css:
+    # translate:
+    # twikoo:
+    # typed:
+    # utils:
+    # valine:
+    # waline_css:
+    # waline_js:
